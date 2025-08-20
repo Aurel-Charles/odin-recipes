@@ -20,11 +20,16 @@ h2 {
     text-decoration: underline;
 }
 
+img {
+    max-width: 220px;
+    height: auto;
+}
+
 .website_title {
     color: black;
     border: solid black 3px;
     background-color: rgb(235, 142, 85);
-    width: 400px;
+    max-width: 400px;
     font-size: 40px;
     display: block;
     margin: 40px auto 90px auto;
@@ -64,6 +69,7 @@ h2 {
 .recipe_card {
     margin: 20px;
     border:  double black 6px;
+    padding: 10px;
 }
 
 .recipe_title {
@@ -83,7 +89,7 @@ h2 {
 }
 
 .ingredients, .steps {
-    width: 700px;
+    max-width: 700px;
     border-left: solid black;
     border-bottom: solid black;
     background-color:rgb(251, 223, 182);
