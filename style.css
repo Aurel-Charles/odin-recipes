@@ -7,3 +7,49 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+
+body{
+    background-color: blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    color: rgb(76, 44, 2);
+    text-decoration: underline;
+}
+
+.recipe_card {
+    margin: 20px;
+    border:  double black 6px;
+}
+
+.recipe_title {
+    padding: 0 20px;
+}
+
+.recipe_img {
+    display: block;
+    margin: auto;
+    border: solid black 2px;
+}
+
+.recipe_description {
+    font-size: large;
+    text-align: center;
+    margin: 10px 40px 40px 40px;
+}
+
+.ingredients, .steps {
+    width: 700px;
+    border-left: solid black;
+    border-bottom: solid black;
+    background-color:rgb(251, 223, 182);
+    display: block;
+    padding: 20px;
+    margin: 20px auto;
+
+}
+
+
+
